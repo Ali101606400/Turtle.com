@@ -1,10 +1,9 @@
-import turtle
-y = input("Please input the distance in kilometer:")
+x = float(input("Please input the distance in kilometer:"))
 def tasmim(x):
     if x<= 3:
         print("Distance given %s, is too near"%x) 
     elif 5 >= x and x>3:
-        ("Distance given %s, is too near"%x) 
+        print("Distance given %s, is too near"%x) 
     elif x>5:
         import turtle
 
@@ -84,6 +83,4 @@ def tasmim(x):
 
         turtle.hideturtle()
         
-
-
-tasmim(y)
+tasmim(x)
